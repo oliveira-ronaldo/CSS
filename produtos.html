@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>ByTec</h1>
-    <ul>
-        <li><a href="index.html">Página Inicial</a></li>
-        <li><a href="sobrenos.html">Sobre Nós</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>  
+    <div id="header">
+        <img src="images/by.png" alt="Logo da empresa">
+        <h1>By Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
     <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Brrmj9z7QLw?si=JmcMYEzK0_dzcEac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Brrmj9z7QLw?si=JmcMYEzK0_dzcEac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+        </div>
+
     </p>
-    <img src="images/15 pro max.jpeg" alt="imagem 01">
-    <p></p>
+    <div class="image-container">
+     <img src="images/15 pro max.jpeg" alt="imagem 01">
 
     <img src="images/mi mix alpha.jpeg" alt="Huawei">
-    <p></p>
 
     <img src="images/S23 ultra.jpeg" alt="Xiaomi">
-    <p></p>
 
     <img src="images/Motorola G23.jpeg" alt="Motorola">
-    <p></p>
 
     <img src="images/Oppo find.jpeg" alt="Nokia">
-    <table>
+       
+    </div>
+
+    
+    <table class="styled-table1">
         <tr>
             <th with="150"></th>
             <th>Melhor Smartphone</th>
@@ -84,7 +93,7 @@
 
 <h2>Informações de Modelos de Celulares</h2>
 
-<table>
+<table class="styled-table2">
   <tr>
     <th>Modelo de Celular</th>
     <th>Marca</th>
@@ -176,6 +185,11 @@
 
         <input type="submit" value="Enviar">
     </form>
+
+    <div id="footer">
+        <p>Contato: mousegrey.blef@gmail.com 
+            Instragram: <a href="https://instagram.com/oliveira_photographer?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">oliveiraphotographer</a> &copy; 2023</p>
+    </div>
 
 </body>
 </html>

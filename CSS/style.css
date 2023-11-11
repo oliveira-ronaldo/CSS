@@ -1,0 +1,218 @@
+h2{
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+#header img {
+    width: 30%; 
+    height: 30%; 
+}
+
+#header nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#header nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+#header nav a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+
+/* Estilo para o conteúdo principal */
+#content {
+    padding: 20px; 
+}
+
+#impacts h3 {
+    color: #333; 
+}
+
+#impacts h3 {
+    color: #555; 
+}
+
+/* Estilo para o rodapé */
+#footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
+  }
+  
+  .image-container img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
+  }
+  
+  .iframe-container video {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /*estilo tabela*/
+  .styled-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .styled-table1 th,
+  .styled-table1 td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table1 th {
+    background-color:#0999CA;
+  }
+  
+  .styled-table1 tbody tr:hover {
+    background-color: #33CA7D;
+  }
+
+  .styled-table2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .styled-table2 th,
+  .styled-table2 td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table2 th {
+    background-color: #0999CA;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #33CA7D;
+  }
+
+
+/* formulario 1*/
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.rating-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para tornar o formulário responsivo */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+/*estilo da lista*/
+.container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.styled-list {
+    list-style: none;
+    padding: 0;
+}
+
+.styled-list > li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.styled-list > li > ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.styled-list > li > ul > li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.styled-list li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}

@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nós</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>ByTec</h1>    
-    <ul>
-        <li><a href="index.html">Página Inicial</a></li>
-        <li><a href="sobrenos.html">Sobre Nós</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>  
+    <div id="header">
+        <img src="images/by.png" alt="Logo da empresa">
+        <h1>By Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <p>Este site é voltado para facilitar a compra de smarphones.</p>
 
@@ -23,14 +28,51 @@
 
     <p>Abaixo estão apresentadas algumas das marcas mais conhecidas:</p>
 
-    <ol>
-        <li>Aplle</li>
-        <li>Xiaomi</li>
-        <li>Samsung</li>
-        <li>Huawei</li>
-        <li>Motorola</li>
-        <li>Oppo</li>
-    </ol>
+
+    
+
+    <div class="container">
+        <h2>Acessórios para celular</h2>
+
+        <ul class="styled-list">
+            <li>Fones
+                <ul>
+                    <li>Bluetooth</li>
+                    <li>Com fio</li>
+                </ul>
+            </li>
+            <li>Carregadores
+                <ul>
+                    <li>Fontes</li>
+                    <li>Cabos USB</li>
+                    <li>Cabos USB/C</li>
+                    <li>Cabo Lightning</li>
+                </ul>
+            </li>
+            <li>Películas
+                <ul>
+                    <li>3D</li>
+                    <li>Hidrogel</li>
+                    <li>Privativa</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Smartphones</h2>
+        <ol class="styled-list">
+            <li>Aplle</li>
+            <li>Xiaomi</li>
+            <li>Samsung</li>
+            <li>Huawei</li>
+            <li>Motorola</li>
+            <li>Oppo</li>
+        </ol>
+    </div>
+
+    <div id="footer">
+        <p>Contato: mousegrey.blef@gmail.com 
+            Instragram: <a href="https://instagram.com/oliveira_photographer?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">oliveiraphotographer</a> &copy; 2023</p>
+    </div>
+
 
 </body>
 </html>

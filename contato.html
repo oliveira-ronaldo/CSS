@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <div id="header">
+        <img src="images/by.png" alt="Logo da empresa">
+        <h1>By Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <ul>
-        <li><a href="index.html">Página Inicial</a></li>
-        <li><a href="sobrenos.html">Sobre Nós</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
     <p>Para comprar produtos Samsung direto do site acesse<a href="https://www.samsung.com/br/"> clicando aqui.</a></p>
     <p>Para comprar produtos de marcas chinesas, procure pela Amazon , clicando <a href="https://www.amazon.com.br/"> aqui </a>, ou no Aliexpress clicando <a href="https://best.aliexpress.com/"> aqui</a> (lembrando que estes você estará sujeito a taxas de importação).</p>
 
-    <form action="processar_formulario.php" method="post">
-        <p>
-            <label for="avaliacao">Avaliação (1-5):</label>
-            <input type="number" name="avaliacao" id="avaliacao" min="1" max="5" required>
-        </p>
-    
-        <p>
-            <input type="submit" value="Enviar">
-        </p>
-    </form>
+    <div class="container">
+        <form action="processar_formulario.php" method="post" class="rating-form">
+            <p>
+                <label for="avaliacao">Avaliação (1-5):</label>
+                <input type="number" name="avaliacao" id="avaliacao" min="1" max="5" required>
+            </p>
+        
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </div>
+
     <h3>Cadastre se e receba notificações de novos produtos</h3>
     <fieldset>
         <legend>Cadastro</legend>
@@ -49,6 +58,11 @@
             <input type="submit" value="Enviar">
         </p>
     </fieldset>
+
+    <div id="footer">
+        <p>Contato: mousegrey.blef@gmail.com 
+            Instragram: <a href="https://instagram.com/oliveira_photographer?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">oliveiraphotographer</a> &copy; 2023</p>
+    </div>
 
 </body>
 </html>
