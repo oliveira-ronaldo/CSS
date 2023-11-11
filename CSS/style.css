@@ -11,7 +11,7 @@ p{
 #header {
     background-color: #333; 
     color: #fff; 
-    padding: 20px; 
+    padding: 10px; 
     text-align: center; 
 }
 
@@ -43,7 +43,8 @@ p{
 }
 
 #impacts h3 {
-    color: #333; 
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #impacts h3 {
@@ -57,22 +58,14 @@ p{
     padding: 20px; 
     text-align: center; 
 }
+/*estilo das imagens , aba produto*/
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
 
-  .image-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh; 
-    background-color: #f0f0f0;
-  }
-  
-  .image-container img {
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
+/*estilo tabelas*/
+/*estilo video*/
   .iframe-container {
     display: flex;
     justify-content: center;
@@ -89,50 +82,33 @@ p{
   }
 
   /*estilo tabela*/
-  .styled-table1 {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  .styled-table1 th,
-  .styled-table1 td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .styled-table1 th {
-    background-color:#0999CA;
-  }
-  
+  .styled-table1,
   .styled-table1 tbody tr:hover {
     background-color: #33CA7D;
   }
+  .styled-table2 tbody tr:hover {
+    background-color: #33a7ca;
+  }
 
   .styled-table2 {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 18px;
-    text-align: center;
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
   }
   
-  .styled-table2 th,
-  .styled-table2 td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
+  .styled-table1, .styled-table1 th, .styled-table1 td,
+  .styled-table2, .styled-table2 th, .styled-table2 td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
   }
   
-  .styled-table2 th {
-    background-color: #0999CA;
+  /* Adaptações para telas menores */
+  @media screen and (max-width: 600px) {
+      .styled-table1, .styled-table2 {
+          font-size: 12px;
+      }
   }
-  
-  .styled-table tbody tr:hover {
-    background-color: #33CA7D;
-  }
-
 
 /* formulario 1*/
 .container {
