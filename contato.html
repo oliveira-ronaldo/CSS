@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="sobrenos.html">Sobre Nós</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <p>Para comprar produtos Samsung direto do site acesse<a href="https://www.samsung.com/br/"> clicando aqui.</a></p>
+    <p>Para comprar produtos de marcas chinesas, procure pela Amazon , clicando <a href="https://www.amazon.com.br/"> aqui </a>, ou no Aliexpress clicando <a href="https://best.aliexpress.com/"> aqui</a> (lembrando que estes você estará sujeito a taxas de importação).</p>
+
+    <form action="processar_formulario.php" method="post">
+        <p>
+            <label for="avaliacao">Avaliação (1-5):</label>
+            <input type="number" name="avaliacao" id="avaliacao" min="1" max="5" required>
+        </p>
+    
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <h3>Cadastre se e receba notificações de novos produtos</h3>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <label for="">Nome:
+            <input type="text" name="Nome">
+        </label>
+        <label for="">Sobrenome:
+            <input type="text" name="Sobrenome">
+        </label>
+        <label for="">Email:
+            <input type="text" name="Email">
+        </label>
+        <label for="">Celular:
+            <input type="text" name="Celular">
+        </label>
+        <label for="">CPF:
+            <input type="text" name="CPF">
+        </label>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </fieldset>
+
+</body>
+</html>
